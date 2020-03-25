@@ -1,4 +1,4 @@
-import { FETCH_AUTHORS } from "../actions/actionTypes";
+import { FETCH_AUTHORS, FILTER_AUTHORS } from "../actions/actionTypes";
 
 const initialState = {
   authors: [],
