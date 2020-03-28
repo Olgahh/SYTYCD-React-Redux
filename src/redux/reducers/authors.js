@@ -19,7 +19,7 @@ const reducer = (state = initialState, action) => {
     case FILTER_AUTHORS:
       return {
         ...state,
-        filteredAuthors: state.authors.filter(author => {
+        filteredAuthors: state.filteredAuthors.filter(author => {
           return `${author.first_name} ${author.last_name}`
             .toLowerCase()
             .includes(action.payload);
